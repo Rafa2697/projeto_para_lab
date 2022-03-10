@@ -1,0 +1,36 @@
+
+main {
+    min-height: 300px;
+    min-height: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+
+    text-align: center;
+    background-color: #1676efb7;
+    border-radius: 10px;
+    padding: auto;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
+}
+h1 {
+    color: red;
+    font-size: 3em;
+}
+
+body {
+    background-color: cadetblue;
+    background-image: url(imagens/wallpaper004.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    text-align: center;
+    background-color: #1678efb7;
+    border-radius: 4px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: auto;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
+}
