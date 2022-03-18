@@ -14,16 +14,28 @@ main {
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
 }
 h1 {
-    color: red;
+    color: rgba(255, 0, 0, 0.671);
     font-size: 3em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
+    
 }
 h2 {
     font-size: 2em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+}
+h2.link{
+
 }
 
+div.img{
+    width: 60vh;
+    margin: auto;
+    
+}
 
 p {
     font-size: 1.3em;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.336);
 }
 
 body {
