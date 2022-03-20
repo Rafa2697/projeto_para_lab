@@ -5,7 +5,7 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 
     text-align: center;
     background-color: #1676efb7;
@@ -20,16 +20,22 @@ h1 {
     
 }
 h2 {
-    font-size: 2em;
+    text-align: left;
+    margin-left: 1vh;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
 }
+
 h2.link{
+    text-align: center;
+    margin-left: 0vh;
 
 }
 
 div.img{
     width: 60vh;
     margin: auto;
+    display: inline-block;
+    
     
 }
 
@@ -42,6 +48,7 @@ body {
     background-color: cadetblue;
     background-image: url(imagens/wallpaper004.jpg);
     font-family: 'Courier New', Courier, monospace ;
+
 }
 
 footer{
