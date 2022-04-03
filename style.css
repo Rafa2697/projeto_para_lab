@@ -58,6 +58,7 @@ footer{
 h2:hover {
     color: darkred;
     text-shadow: 3px 8px 3px rgba(0, 0, 0, 0.34);
+    transition: 0.7s;
     
     
 }
@@ -69,5 +70,6 @@ a {
 a:hover {
     color: darkred;
     font-size: 1.4em;
+    transition: 1s;
 
 }
