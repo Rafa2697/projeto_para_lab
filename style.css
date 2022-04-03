@@ -25,19 +25,11 @@ h2 {
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
 }
 
-h2.link{
+h2.link {
     text-align: center;
     margin-left: 0vh;
-
 }
 
-div.img{
-    width: 60vh;
-    margin: auto;
-    display: inline-block;
-    
-    
-}
 
 p {
     font-size: 1.3em;
@@ -60,4 +52,8 @@ footer{
     margin: auto;
     padding: auto;
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
+}
+
+h2:hover {
+    color: darkred;
 }
