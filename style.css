@@ -15,15 +15,18 @@ main {
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
 }
 h1 {
-    color: rgba(255, 0, 0, 0.671);
+    color: red;
+    animation-name: titulo;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
     font-size: 3em;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.425);
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.425);
     
 }
 h2 {
     text-align: left;
     margin-left: 1vh;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+    
     transition: 0.7s;
 }
 
@@ -33,9 +36,10 @@ h2.link {
 }
 
 
+
 p {
     font-size: 1.3em;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.336);
+    
 }
 
 body {
@@ -55,23 +59,34 @@ footer{
     padding: auto;
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
 }
-
-h2:hover {
-    color: darkred;
-    text-shadow: 3px 8px 3px rgba(0, 0, 0, 0.34);
-    
-    
-    
-}
-
-a {
+.regulamento a{
     color: black;
     text-decoration: none;
     transition: 1s;
+    font-size: 1.3em;
 }
-a:hover {
+
+.regulamento a:hover{
+    color: darkred;
+    font-size: 1.4em;
+}
+
+
+
+.link a {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+    font-size: 1.3em;
+}
+.link a:hover {
     color: darkred;
     font-size: 1.4em;
     
 
+}
+
+@keyframes titulo {
+    from{color: red;}
+    to{color: darkred;}
 }
