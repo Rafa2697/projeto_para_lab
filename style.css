@@ -6,7 +6,7 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-top: 50px;
-    height: 400px;
+    height: 500px;
 
     text-align: center;
     background-color: #1676efb7;
@@ -86,7 +86,7 @@ footer{
 
 }
 
-@keyframes titulo {
+@keyframes titulo { /* comando para piscar a o elemento*/
     from{color: red;}
     to{color: darkred;}
 }
