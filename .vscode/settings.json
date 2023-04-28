@@ -1,0 +1,6 @@
+{
+    "editor.cursorStyle": "line",
+    "files.autoSave": "afterDelay",
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "editor.wordWrap": "on"
+}

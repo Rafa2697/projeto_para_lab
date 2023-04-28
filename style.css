@@ -1,15 +1,15 @@
 
 main {
-    min-height: 300px;
+    max-height: 50%;
     min-height: 10px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-top: 50px;
-    height: 500px;
+    
 
     text-align: center;
-    background-color: #1676efb7;
+    background-color: #1678ef7c;
     border-radius: 10px;
     padding: auto;
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
@@ -60,14 +60,14 @@ footer{
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
 }
 .regulamento a{
-    color: black;
+    color: darkred;
     text-decoration: none;
     transition: 1s;
     font-size: 1.3em;
 }
 
 .regulamento a:hover{
-    color: darkred;
+    color: red;
     font-size: 1.4em;
 }
 
@@ -90,3 +90,26 @@ footer{
     from{color: red;}
     to{color: darkred;}
 }
+
+
+.box1 h2{
+    color: white;
+    text-align: center;
+    width:15%;
+    margin: 0 auto;
+    background-color: darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.box2 > a{
+   width: 40%;
+   
+    
+}
+
+li{
+    text-align: left;
+}
+
