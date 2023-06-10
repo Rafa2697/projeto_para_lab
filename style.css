@@ -102,9 +102,13 @@ footer{
     cursor: pointer;
 
 }
+.box2{
+    max-height: 100px;
+}
 
 .box2 > a{
    width: 40%;
+  
    
     
 }
