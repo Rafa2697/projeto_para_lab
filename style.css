@@ -14,7 +14,7 @@ main {
     padding: auto;
     box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.301);
 }
-h1 {
+.titulo-animado{
     color: red;
     animation-name: titulo;
     animation-iteration-count: infinite;
