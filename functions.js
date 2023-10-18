@@ -17,11 +17,12 @@ function mais(){
   let y = document.getElementById('demo');
 
   x.addEventListener('click', function(){
-    if(y.style.display === 'block'){
-      y.style.display = 'none'
-    }else{
-      y.style.display = 'block'
-    }
+     if(y.style.display === 'block'){
+       y.style.display = 'none'
+     }else{
+       y.style.display = 'block'
+     }
+   
   });
 
   x.addEventListener('mouseenter', mouseEnter);
