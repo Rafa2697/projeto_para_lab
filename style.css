@@ -6,8 +6,6 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-top: 50px;
-    
-
     text-align: center;
     background-color: #1678ef7c;
     border-radius: 10px;
@@ -113,6 +111,16 @@ footer{
 
 li{
     text-align: left;
+}
+
+ li a{
+    color: black;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: darkred;
+    font-size: 1.2em;
 }
 
 
