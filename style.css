@@ -92,12 +92,16 @@ footer{
 .box1 h2{
     color: white;
     text-align: center;
-    width:15%;
+    width:200px;
     margin: 0 auto;
     background-color: darkblue;
     border-radius: 10px;
     cursor: pointer;
-
+    padding: 10px;
+    transition: 0.4s;
+}
+.box1 h2:hover{
+    background-color: darkred;
 }
 .box2{
     max-height: 100px;
