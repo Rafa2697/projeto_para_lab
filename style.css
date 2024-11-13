@@ -33,8 +33,15 @@ h2.link {
     margin-left: 0vh;
 }
 
-
-
+#Tutoriais{
+    width: 450px;
+}
+#Agenda{
+    width: 550px;
+}
+#botao{
+   width: 200px;
+}
 p {
     font-size: 1.3em;
     

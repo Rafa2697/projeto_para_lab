@@ -76,4 +76,26 @@ function typeWriter(element) {
 
 const titulo = document.querySelector('.titulo-animado')
 
+// usando a biblioteca driver.js
+const driver = window.driver.js.driver;
+
+const driverObj = driver({
+  nextBtnText: 'Próximo',
+  prevBtnText: 'Voltar',
+  doneBtnText: '✕',
+  showProgress: true,
+ 
+  steps: [
+    { element: '#span', popover: { title: 'Usando a nuvem', description: 'Veja dicas de como usar o Google Drive.', side: "left", align: 'start' }},
+
+    { element: '#Tutoriais', popover: { title: 'Veja', description: 'Tutoriais da Faculdade peruibe', side: "bottom", align: 'start' }},
+
+    { element: '#Agenda', popover: { title: 'Não fique perdido', description: 'Veja em que sala está sua turma.', side: "bottom", align: 'start' }},
+
+    { element: '#botao', popover: { title: 'Acesso ao portal', description: 'Portais acadêmicos dos cursos Híbridos, presenciais e EAD. ', side: "left", align: 'start' }},
+
+  ]
+});
+
+driverObj.drive();
 
