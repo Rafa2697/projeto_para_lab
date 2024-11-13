@@ -88,7 +88,7 @@ const driverObj = driver({
   steps: [
     { element: '#span', popover: { title: 'Usando a nuvem', description: 'Veja dicas de como usar o Google Drive.', side: "left", align: 'start' }},
 
-    { element: '#Tutoriais', popover: { title: 'Veja', description: 'Tutoriais da Faculdade peruibe', side: "bottom", align: 'start' }},
+    { element: '#Tutoriais', popover: { title: 'Veja', description: 'Tutoriais da Faculdade Peruíbe', side: "bottom", align: 'start' }},
 
     { element: '#Agenda', popover: { title: 'Não fique perdido', description: 'Veja em que sala está sua turma.', side: "bottom", align: 'start' }},
 
